@@ -217,7 +217,7 @@ _Everything else..._
   brew install raycast
   ```
   
-- [ ] [Rewind](https://www.rewind.ai/0 - Record and search your screen and audio
+- [ ] [Rewind](https://www.rewind.ai/) - Record and search your screen and audio
   ```
   brew install rewind	
   ```
