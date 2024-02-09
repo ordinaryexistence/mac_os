@@ -261,7 +261,7 @@ _Everything else..._
 
 ## Manual Downloads (Web, GitHub, Etc.)
 
-- [ ] [Hocus Focus](https://hocusfoc.us/) - Menu bar utility that hides your inactive windows
+- [ ] [Hocus Focus](https://hocusfoc.us/) - Menu bar utility that hides your inactive windows (see also: hazeover)
 - [ ] 
 ---
 
