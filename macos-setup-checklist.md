@@ -259,6 +259,10 @@ _Everything else..._
 - [ ] [Amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12) - Powerful keep-awake utility
 - [ ] [Amphetamine-Enhancer](https://github.com/x74353/Amphetamine-Enhancer) - Enhances Amphetamine
 
+## Manual Downloads (Web, GitHub, Etc.)
+
+- [ ] [Hocus Focus](https://hocusfoc.us/) - Menu bar utility that hides your inactive windows
+- [ ] 
 ---
 
 # Misc
