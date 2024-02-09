@@ -211,7 +211,7 @@ _Everything else..._
   brew install chronosync
   ```
 
-- [ ] [Cyberduck](https://cyberduck.io/) - Server and cloud storage browser
+- [ ] [Cyberduck](https://cyberduck.io/) - Server and cloud storage browser (see also: forklift)
   ```
   brew install cyberduck
   ```
