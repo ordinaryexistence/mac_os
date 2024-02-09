@@ -155,6 +155,17 @@ _Prerequisites to everything else_
 	- [ ] Configure  personal login
 	- [ ] Configure Webley login
 
+- [ ] [Sophos Endpoint](https://cloud.sophos.com/) - Full malware protection and more
+  - Get installer
+    - Download from Sophos Central
+    - Download from Google Drive
+  - Decompress ZIP archive
+  - Run installer
+     
+- [ ] [Cisco AnyConnect Secure Mobility Client](https://drive.google.com/drive/folders/1b--4dSCTPD6BaD-0J3jz7H7nnVhNsffF?usp=drive_link) - VPN Client
+  - Download latest installer (4.10.0690 at time of writing)
+  - Run installer
+
 _Everything else..._
 
 ---
