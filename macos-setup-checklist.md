@@ -210,7 +210,12 @@ _Everything else..._
   ```
   brew install chronosync
   ```
-  
+
+- [ ] [Cyberduck](https://cyberduck.io/) - Server and cloud storage browser
+  ```
+  brew install cyberduck
+  ```
+
 - [ ] Dropbox, https://www.dropbox.com/install
   ```
   brew install dropbox
