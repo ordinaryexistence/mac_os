@@ -10,7 +10,7 @@ BuildVersion:		23D56
 
 # Standards & Conventions
 
-- Use shift + control as the prefix for all custom keyboard shortcuts
+- Use `[shift] + [control]` as the prefix for all custom keyboard shortcuts
 
 # Baseline System Setup & Configuration 
 
