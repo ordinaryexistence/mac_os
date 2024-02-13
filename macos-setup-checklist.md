@@ -766,6 +766,17 @@ docker/podman
 
 # Application Configurations
 
+## git
+
+### git-config
+### aliases
+### https
+### ssh
+### gh
+### API
+### gitignore
+### git-worktree
+
 ## Zsh
 
 ### zsh Configuration Files
