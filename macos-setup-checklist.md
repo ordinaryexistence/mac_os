@@ -176,19 +176,79 @@ _Everything else..._
   ```
 ---
 
-- [ ] [1password-cli](https://developer.1password.com/docs/cli) - Command-line interface for 1Password
+- [ ] *$* [1password-cli](https://developer.1password.com/docs/cli) - Command-line interface for 1Password
   ```
   brew install 1password-cli
   ```
-  
+
+- [ ] [Adium](https://www.adium.im/) - Instant messaging application
+  ```
+  brew install adium
+  ```
+
+- [ ] [Anki](https://apps.ankiweb.net/) - Memory training application
+  ```
+  brew install anki
+  ```
+
 - [ ] [AppCleaner](https://freemacsoft.net/appcleaner/) - Application uninstaller
   ```
   brew install appcleaner
   ```
 
-- [ ] [Bartender](https://www.macbartender.com/) - Menu bar icon organizer
+- [ ] [as-tree](https://github.com/jez/as-tree) - Print a list of paths as a tree of paths
+  ```
+  brew install as-tree
+  ```
+
+- [ ] [ascinema](https://asciinema.org) - Record and share terminal sessions
+  ```
+  brew install asciinema
+  ```
+
+- [ ] [asroute](https://github.com/stevenpack/asroute) - CLI to interpret traceroute -a output to show AS names traversed
+  ```
+  brew install asroute
+  ```
+- [ ] [Audacity](https://www.audacityteam.org/) - Multi-track audio editor and recorder
+  ```
+  brew install audacity
+  ```
+
+- [ ] AWS * - AWS related tooling, see whats new!
+  ```
+  brew search aws
+  ```
+  - Utilities I depend on
+    - aws-shell
+    - awscli
+    - awsume
+    - cli53 (not aws*, but related)
+
+
+- [ ] *$* [Bartender](https://www.macbartender.com/) - Menu bar icon organizer
   ```
   brew install bartender
+  ```
+
+- [ ] [bash5](https://www.gnu.org/software/bash/) - Bourne-Again SHell, a UNIX command interpreter
+  ```
+  brew install bash
+  ```
+
+- [ ] [bash-completion@2](https://github.com/scop/bash-completion) - Programmable completion for Bash 4.2+
+  ```
+  brew install bash-completion@2
+  ```
+
+- [ ] [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - Informative, fancy bash prompt for Git users
+  ```
+  brew install bash-git-prompt
+  ```
+
+- [ ] [bashdb](https://bashdb.sourceforge.net/) - Bash shell debugger
+  ```
+  brew install bashdb
   ```
 
 - [ ] [BetterDisplay](https://betterdisplay.pro/) - Display management tool
@@ -206,9 +266,49 @@ _Everything else..._
   brew install carbon-copy-cloner
   ```
 
+- [ ] [cheatsheet](https://www.mediaatelier.com/CheatSheet/) - Tool to list all active shortcuts of the current application
+  ```
+  brew install cheatsheet
+  ```
+
 - [ ] [ChronoSync](https://www.econtechnologies.com/) - Synchronization and backup tool (see also: carbon-copy-cloner)
   ```
   brew install chronosync
+
+- [ ] [coreutils](https://www.gnu.org/software/coreutils) - GNU File, Shell, and Text utilities
+  ```
+  brew install coreutils
+  ```
+
+- [ ] _$_ [CoScreen](https://www.coscreen.co/) - Collaboration tool with multi-user screen sharing
+  SEE ALSO: Tuple
+  ```
+  brew install coscreen
+  ```
+
+- [ ] [csshx](https://github.com/brockgr/csshx) - Cluster ssh tool for Terminal.app
+  ```
+  brew install csshx
+  ```
+
+- [ ] [cvs](https://www.nongnu.org/cvs/) - Version control system
+  ```
+  brew install cvs
+  ```
+
+- [ ] [cvs-fast-export](http://www.catb.org/~esr/cvs-fast-export/) - Export an RCS or CVS history as a fast-import stream
+  ```
+  brew install cvs-fast-export
+  ```
+
+- [ ] [cvsutils](https://www.red-bean.com/cvsutils/) - CVS utilities for use in working directories
+  ```
+  brew install cvsutils
+  ```
+
+- [ ] [cvsync](https://www.cvsync.org/) - Portable CVS repository synchronization utility
+  ```
+  brew install cvsync
   ```
 
 - [ ] [Cyberduck](https://cyberduck.io/) - Server and cloud storage browser (see also: forklift)
@@ -216,28 +316,374 @@ _Everything else..._
   brew install cyberduck
   ```
 
-- [ ] Dropbox, https://www.dropbox.com/install
+- [ ] [direnv](https://direnv.net/) - Load/unload environment variables based on $PWD
   ```
-  brew install dropbox
+  brew install direnv
   ```
-  - [ ] Configure  personal login
-  - [ ] Configure Webley login
+
+- [ ] [Discord](https://discord.com/) - Voice and text chat software
+  ```
+  brew install discord
+  ```
+
+- [ ] docker* - Docker related tooling...
+  ```
+  brew search docker
+  ```
+  - Utilities I depend on
+    - docker
+    - docker-completion
+    - docker-compose
+    - docker-ls
+
+- [ ] [Dropbox Uploader](https://www.andreafabrizi.it/2016/01/01/Dropbox-Uploader/) - Bash script for interacting with Dropbox
+  ```
+  brew install dropbox-uploader
+  ```
+
+- [ ] _$_ [Evernote](https://evernote.com/) - App for note taking, organizing, task lists, and archiving
+  SEE ALSO: Logseq, Notion, Obsidian
+  ```
+  brew install evernote
+  ```
+
+- [ ] *$* [Fantastical](https://flexibits.com/fantastical) - Calendar software
+  ```
+  brew install fantastical
+  ```
+
+- [ ] [fd](https://github.com/sharkdp/fd) - Simple, fast and user-friendly alternative to find
+  ```
+  brew install fd
+  ```
+
+- [ ] [ffmpeg](https://ffmpeg.org/) - Play, record, convert, and stream audio and video
+  ```
+  brew install ffmpeg
+  ```
+
+- [ ] *$* [Forklift](https://binarynights.com/) - Finder replacement and FTP, SFTP, WebDAV and Amazon s3 client (see also: cyberduck)
+  ```
+  brew install forklift
+  ```
+
+- [ ] [freetds](https://www.freetds.org/) - Libraries to talk to Microsoft SQL Server and Sybase databases
+  ```
+  brew install freetds
+  ```
+
+- [ ] [Gitify](https://github.com/gitify-app/gitify) - App that shows GitHub notifications on the desktop
+  ```
+  brew install gitify
+  ```
+
+- [ ] [gnutls](https://gnutls.org/) - GNU Transport Layer Security (TLS) Library
+  ```
+  brew install gnutls
+  ```
 
 - [ ] [Google Chrome](https://www.google.com/chrome/) - Web browser
   ```
   brew install google-chrome
   ```
 
+- [ ] [Handbrake](https://handbrake.fr/) - Open-source video transcoder
+  ```
+  brew install handbrake
+  ```
+
+- [ ] [hazeover](https://hazeover.com/) - Windows manager and desktop organiser
+  ```
+  brew install hazeover
+  ```
+
+- [ ] [htop](https://htop.dev/) - Improved top (interactive process viewer)
+  ```
+  brew install htop
+  ```
+
+- [ ] [iam-policy-json-to-terraform](https://github.com/flosell/iam-policy-json-to-terraform) - Convert a JSON IAM Policy into terraform
+  ```
+  brew install iam-policy-json-to-terraform
+  ```
+
+- [ ] [iterm2](https://www.iterm2.com/) - Terminal emulator as alternative to Apple's Terminal app
+  ```
+  brew install iterm2
+  ```
+
+- [ ] [jq](https://jqlang.github.io/jq/) - Lightweight and flexible command-line JSON processor
+  ```
+  brew install jq
+  ```
+
+- [ ] [jql](https://github.com/yamafaktory/jql) - JSON query language CLI tool
+  ```
+  brew install jql
+  ```
+
+- [ ] [KeyCue](https://www.ergonis.com/products/keycue) - Finds, learns and remembers keyboard shortcuts
+  ```
+  brew install keycue
+  ```
+
+- [ ] [Keybase](https://keybase.io/) - End-to-end encryption software
+  ```
+  brew install keybase
+  ```
+
+- [ ] [KeyboardCleanTool}(https://folivora.ai/keyboardcleantool) - Blocks all Keyboard and TouchBar input
+  ```
+  brew install keyboardcleantool
+  ```
+
+- [ ] [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - Host-based application firewall
+  SEE ALSO: radio-silence, lulu
+  ```
+  brew install little-snitch
+  ```
+
+- [ ] [Logseq](https://github.com/logseq/logseq) - Privacy-first, open-source platform for knowledge sharing and management
+  SEE ALSO: Evernote, Notion, Obsidian
+  ```
+  brew install logseq
+  ```
+
+- [ ] _$_ [Loom](https://www.loom.com/) - Screen and video recording software
+  ```
+  brew install loom
+  ```
+
+- [ ] [Lulu](https://objective-see.com/products/lulu.html) - Open-source firewall to block unknown outgoing connections
+  SEE ALSO: little-snitch, radio-silence
+  ```
+  brew install lulu
+  ```
+
+- [ ] [mas](https://github.com/mas-cli/mas) - Mac App Store command-line interface
+  __NOTE: Recent updates to macOS continue to break functionality of this utility, making it difficult to depend on.__
+  ```
+  brew install mas
+  ```
+
+- [ ] [masscan](https://github.com/robertdavidgraham/masscan/) - TCP port scanner, scans entire Internet in under 5 minutes
+  ```
+  brew install masscan
+  ```
+
+- [ ] [Microsoft Remote Desktop](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac) - Remote desktop client
+  ```
+  brew install microsoft-remote-desktop
+  ```
+
+- [ ] [Microsoft Visual Studio Code](https://code.visualstudio.com/) - Open-source code editor
+  ```
+  brew install visual-studio-code
+  ```
+
+- [ ] [miro](https://miro.com/) - Online collaborative whiteboard platform
+  ```
+  brew install miro
+  ```
+
+- [ ] [mtr](https://www.bitwizard.nl/mtr/) - 'traceroute' and 'ping' in a single tool
+  ```
+  brew install mtr
+  ```
+
+- [ ] [Mozilla Firefox](https://www.mozilla.org/firefox/) - Web browser
+  ```
+  brew install firefox
+  ```
+
+- [ ] [MySQL Workbench](https://www.mysql.com/products/workbench/) - Visual tool to design, develop and administer MySQL servers
+  SEE ALSO: navicat-*, razorsql
+  ```
+  brew install mysqlworkbench
+  ```
+
+- [ ] [mysql-client](https://dev.mysql.com/doc/refman/8.3/en/) - Open source relational database management system
+  ```
+  brew install mysql-client
+  ```
+  
+- [ ] [nmap](https://nmap.org/) - Port scanning utility for large networks
+  ```
+  brew install nmap
+  ```
+
+- [ ] [notion](https://www.notion.so/) - App to write, plan, collaborate, and get organized
+  SEE ALSO: Evernote, Logseq, Obsidian
+  ```
+  brew install notion
+  ```
+
+- [ ] [Obsidian](https://obsidian.md/) - Knowledge base that works on top of a local folder of plain text Markdown files
+  SEE ALSO: Evernote, Logseq, Notion
+  ```
+  brew install obsidian
+  ```
+
+- [ ] _$_ [Pandora](https://www.pandora.com/desktop) - Desktop client for the Pandora web radio service
+  ```
+  brew install pandora
+  ```
+
+- [ ] [pcre](https://www.pcre.org/) - Perl compatible regular expressions library
+  ```
+  brew install pcre
+  ```
+
+- [ ] [pcre2](https://www.pcre.org/) - Perl compatible regular expressions library with a new API
+  ```
+  brew install pcre2
+  ```
+
+- [ ] [pipenv](https://github.com/pypa/pipenv) - Python dependency management tool
+  SEE ALSO: pyenv
+  ```
+  brew install pipenv
+  ```
+
+- [ ] _$_ [Postman](https://www.postman.com/) - Collaboration platform for API development
+  ```
+  brew install postman
+  ```
+
+- [ ] [powerlevel10k](https://github.com/romkatv/powerlevel10k) - Theme for zsh
+  SEE ALSO: starship
+  ```
+  brew install powerlevel10k
+  ```
+
+- [ ] [pstree](https://github.com/FredHucht/pstree) - Show ps output as a tree
+  ```
+  brew install pstree
+  ```
+
+- [ ] [pyenv](https://github.com/pyenv/pyenv) - Python version management
+  SEE ALSO: pipenv
+  ```
+  brew install pyenv
+  ```
+
+- [ ] [readline](https://tiswww.case.edu/php/chet/readline/rltop.html) - Library for command-line editing
+  ```
+  brew install readline
+  ```
+
+- [ ] [Radio Silence](https://radiosilenceapp.com/) - Network monitor and firewall
+  SEE ALSO: little-snitch, lulu
+  ```
+  brew install radio-silence
+  ```
+
 - [ ] [Raycast](https://www.raycast.com/) - Control your tools with a few keystrokes
   ```
   brew install raycast
   ```
-  
+
+- [ ] *$* [RazorSQL](https://razorsql.com/) - SQL query tool and SQL editor
+  SEE ALSO: mysqlworkbench, navicat-*
+  ```
+  brew install razorsql
+  ```
+
 - [ ] [Rewind](https://www.rewind.ai/) - Record and search your screen and audio
   ```
-  brew install rewind	
+  brew install rewind
   ```
   _Disable audio capture_
+
+- [ ] [Signal](https://signal.org/) - Instant messaging application focusing on security
+  ```
+  brew install signal
+  ```
+
+- [ ] _$_ [Slack](https://slack.com/) - Team communication and collaboration software
+  ```
+  brew install slack
+  ```
+
+- [ ] *$* [Soulver](https://soulver.app/) - Notepad with a built-in calculator
+  ```
+  brew install soulver
+  ```
+
+- [ ] _$_ [Spotify](https://www.spotify.com/) - Music streaming service
+  ```
+  brew install spotify
+  ```
+
+- [ ] [starship](https://starship.rs) - Cross-shell prompt for astronauts
+  SEE ALSO: powerlevel10k
+  ```
+  brew install starship
+  ```
+
+- [ ] [swaks](https://www.jetmore.org/john/code/swaks/) - SMTP command-line test tool
+  ```
+  brew install swaks
+  ```
+
+- [ ] [tastytrade](https://tastytrade.com/technology/) - Desktop trading platform
+  ```
+  brew install tastytrade
+  ```
+
+- [ ] [telnet](https://opensource.apple.com/) - User interface to the TELNET protocol
+  ```
+  brew install telnet
+  ```
+
+- [ ] [terraform*](https://www.terraform.io/) - Tool to build, change, and version infrastructure
+  ```
+  brew search terraform
+  ```
+  - Utilities I depend on
+    = terraform
+    - terraform-docs
+    - terraformer
+    - terraforming
+
+  _In addition to the dedicated toosl below for managing terraform versions. Remember that you can use `brew` itself to switch between versions._
+  _E.G._
+  ```
+  brew switch terraform 0.11.14
+  terraform --version
+  ```
+
+- [ ] [Terraform Switcher](https://github.com/warrensbox/terraform-switcher) - Manage multiple terraform versions
+  SEE ALSO: tfenv
+  ```
+  brew install warrensbox/tap/tfswitch
+  ```
+
+- [ ] [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager inspired by rbenv
+  ```
+  brew install tfenv
+  ```
+
+- [ ] [Thinkorswim](https://mediaserver.thinkorswim.com/installer/install.html#macosx) - Desktop client for TD Ameritrade trading platform
+  ```
+  brew install thinkorswim
+  ```
+
+- [ ] [tree](https://oldmanprogrammer.net/source.php?dir=projects/tree) - Display directories as trees (with optional color/HTML output)
+  ```
+  brew install tree
+  ```
+
+- [ ] _$_ [Tuple](https://tuple.app/) - Remote pair programming app
+  SEE ALSO: CoScreen
+  ```
+  brew install tuple
+  ```
+
+- [ ] [unixodbc](https://www.unixodbc.org/) - ODBC 3 connectivity for UNIX
+  ```
+  brew install unixodbc
+  ```
 
 - [ ] [UTM](https://mac.getutm.app/) - Virtual machines UI using QEMU
   ```
@@ -248,11 +694,51 @@ _Everything else..._
   ```
   brew install virtualbuddy
   ```
-  
+
 - [ ] VLC, https://www.videolan.org/vlc/
   ```
   brew install vlc
   ```
+
+- [ ] [wget](https://www.gnu.org/software/wget/) - Internet file retriever
+  ```
+  brew install wget
+  ```
+
+- [ ] [Whalebrew](https://github.com/whalebrew/whalebrew) - Homebrew, but with Docker images
+  ```
+  brew install whalebrew
+  ```
+
+- [ ] [WhatsApp](https://www.whatsapp.com/) - Native desktop client for WhatsApp
+  ```
+  brew install whatsapp
+  ```
+
+- [ ] [Wireshark](https://www.wireshark.org) - Graphical network analyzer and capture tool
+  ```
+  brew install --cask wireshark
+  brew install wireshark
+  ```
+
+- [ ] [zenmap](https://nmap.org/zenmap/) - Multi-platform graphical interface for official Nmap Security Scanner
+  ```
+  brew install zenmap
+  ```
+
+- [ ] _$_ [Zoom](https://www.zoom.us/) - Video communication and virtual meeting platform
+  ```
+  brew install zoom
+  ```
+
+- [ ] [zsh*] - Additional utilities for zsh
+  ```
+  brew search zsh
+  ```
+  - Utilities I depend on
+    - zsh-autocomplete
+    - zsh-completions
+    - zsh-git-prompt
 
 ## Apple App Store Applications
 
