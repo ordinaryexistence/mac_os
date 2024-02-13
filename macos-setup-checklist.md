@@ -766,6 +766,46 @@ docker/podman
 
 # Application Configurations
 
+## Zsh
+
+### zsh Configuration Files
+
+| all users     | user      | login shell | interactive shell | scripts | Terminal.app |
+|---------------|-----------|:-----------:|:-----------------:|:-------:|:------------:|
+| /etc/zshenv   | .zshenv   |      √      |         √         |    √    |       √      |
+| /etc/zprofile | .zprofile |      √      |         x         |    x    |       √      |
+| /etc/zshrc    | .zshrc    |      √      |         √         |    x    |       √      |
+| /etc/zlogin   | .zlogin   |      √      |         x         |    x    |       √      |
+| /etc/zlogout  | .zlogout  |      √      |         x         |    x    |       √      |
+
+By default, zsh will look in the root of the home directory for the user `.z*` files, but this behavior can be changed by setting the `ZDOTDIR` environment variable to another directory.
+
+`zsh` will start with `/etc/zshenv`, then the user’s `.zshenv`. The zshenv files are always used when they exist, even for scripts with the `#!/bin/zsh` shebang.
+
+Next, when the shell is a <b>login</b> shell, `zsh` will run `/etc/zprofile` and `.zprofile`. Then for <b>interactive</b> shells (and login shells) `/etc/zshrc` and `.zshrc`. Then, again for <b>login</b> shells `/etc/zlogin` and `.zlogin`.
+
+Finally, there are zlogout files that can be used for cleanup, when a <b>login</b> shell exits. In this case, the user level `.zlogout` is read first, then the central `/etc/zlogout`. If the shell is terminated by an external process, these files might not be run.
+
+### Apple Provided Configuration Files
+
+`/etc/zprofile` uses `/usr/libexec/path_helper` to set the default `PATH`. 
+
+> The path_helper utility reads the contents of the files `/etc/paths` then in the directories `/etc/paths.d`, read in alpha-numerical order of the filename, and appends their contents to the `PATH` environment variable. Files in these directories should contain one path element per line.
+
+Some tools will edit `/etc/profile` and others will look for the various profile files in a user’s home directory and edit those.
+
+__Re-ordering the `PATH`__
+
+`path_helper` may reorder your `PATH`. Suppose you pre-pended `~/bin` to your `PATH` with `export PATH=~/bin:$PATH`
+
+Then some process launches a subshell which can call `path_helper` again. `path_helper` will ‘find’ your additions to the defined `PATH`, but it will append to the list of default paths from `/etc/paths` and `/etc/paths.d`, changing your order and thus which tools will be used.
+
+A better way to override built-in commands which is not affected by `path_helper` would be to use aliases or functions in your profile.
+
+__What about `MANPATH`?__
+This is usually not used on macOS since the the default settings for the man tool are quite flexible. However, if a `MANPATH` environment variable is set when path_helper runs, it will also assemble the command to set the `MANPATH` built in a similar way to the `PATH` from the files `/etc/manpaths` and the directory `/etc/manpaths.d`.
+
+Then `/etc/zshrc` enables UTF–8 with `setopt combiningchars`.
 
 # Known Issues
 
