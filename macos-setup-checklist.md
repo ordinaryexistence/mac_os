@@ -136,7 +136,7 @@ BuildVersion:		23D56
 
 ---
 
-# Applications & Application Configurations
+# Applications
 
 ## Homebrew Applications
 
@@ -669,6 +669,11 @@ _Everything else..._
   brew install thinkorswim
   ```
 
+- [ ] [tmux](https://tmux.github.io/ - Terminal multiplexer
+  ```
+  brew install tmux
+  ```
+
 - [ ] [tree](https://oldmanprogrammer.net/source.php?dir=projects/tree) - Display directories as trees (with optional color/HTML output)
   ```
   brew install tree
@@ -758,3 +763,24 @@ Python3
 Ruby
 Perl
 docker/podman
+
+# Application Configurations
+
+
+# Known Issues
+
+## Git
+
+```
+git
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+```
+
+Fix (check for system updates that includes xcode, or run the following):
+```
+xcode-select --install
+xcode-select: note: install requested for command line developer tools
+```
+
+## csshX
+
