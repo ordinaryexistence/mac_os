@@ -1,3 +1,5 @@
+SEE ALSO: https://github.com/geerlingguy/mac-dev-playbook
+
 _Last performed on (`sw_vers`):_
 
 ```bash
