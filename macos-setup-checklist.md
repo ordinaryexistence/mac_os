@@ -118,9 +118,20 @@ BuildVersion:		23D56
 		- [ ] Add `/usr/local/bin` to `$PATH` in `.zprofile`
       ```
       setopt HIST_IGNORE_SPACE
+      setopt NO_CLOBBER
       setopt nonomatch
       export PATH="/usr/local/bin:$PATH"
       ```
+  TODO:
+  ```
+  export CVSROOT=":pserver:ifoutch@cvs:2401/usr/local/cvsroot"
+
+  eval $(ssh-agent -s)
+  ssh-add --apple-use-keychain
+
+  alias history='history 0'
+  ```
+      
 - [ ] Set power saver options, systemsetup & pmset
   Check capabilities
   ```
