@@ -239,12 +239,6 @@ _Everything else..._
     - awsume
     - cli53 (not aws*, but related)
 
-
-- [ ] *$* [Bartender](https://www.macbartender.com/) - Menu bar icon organizer
-  ```
-  brew install bartender
-  ```
-
 - [ ] [bash5](https://www.gnu.org/software/bash/) - Bourne-Again SHell, a UNIX command interpreter
   ```
   brew install bash
