@@ -20,7 +20,7 @@ BuildVersion:		23D56
   - Prerequisites
     - Wi-Fi network
     - Apple ID for iCloud, the App Store, etc. (not absolutely required at setup, but will need eventually)
-      - Note that iCloud logins are not supported in virtual machine guests, Apple has announced that starting with macOS 15 Sequoia
+        _*Note that iCloud logins are not supported in virtual machine guests, Apple has announced that starting with macOS 15 Sequoia_
   - [ ] Setup Assistant
     - [ ] Language [English]
     - [ ] Country or Region [United States]
