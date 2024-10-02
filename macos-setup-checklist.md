@@ -767,11 +767,31 @@ _Everything else..._
 # Misc
 
 Apple Configurator  
+Bitdefender  
+Kagi  
+MS Office
+[Pacifist](https://www.charlessoft.com/)  
+Parallels
+[Pathfinder](https://www.cocoatech.io/)  
+Reeder  
+Studio 3T  
+Superduper  
+Teleport  
+Transmission  
+Tripmode  
+Tupple  
+VMware Fusion  
+Vagrant Manager  
+Vuze  
 bash5  
 Python3  
 Ruby  
 Perl  
 docker/podman  
+
+# Browser Plugins/Extensions
+
+Save to Pocket (getpocket.com)  
 
 # Application Configurations
 
