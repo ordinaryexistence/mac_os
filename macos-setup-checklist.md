@@ -766,11 +766,12 @@ _Everything else..._
 
 # Misc
 
-bash5
-Python3
-Ruby
-Perl
-docker/podman
+Apple Configurator  
+bash5  
+Python3  
+Ruby  
+Perl  
+docker/podman  
 
 # Application Configurations
 
