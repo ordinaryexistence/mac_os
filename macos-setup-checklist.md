@@ -598,10 +598,14 @@ _Everything else..._
   ```
 
 - [ ] [Rewind](https://www.rewind.ai/) - Record and search your screen and audio
+  SEE ALSO: screenpipe
   ```
   brew install rewind
   ```
   _Disable audio capture_
+
+- [ ] [screenpipe](https://github.com/mediar-ai/screenpipe) - Record and search your screen and audio with AI
+  SEE ALSO: Rewind
 
 - [ ] [Signal](https://signal.org/) - Instant messaging application focusing on security
   ```
