@@ -537,10 +537,10 @@ _Everything else..._
   brew install pandora
   ```
 
-- [ ] [Pearcleaner](https://itsalin.com/appInfo/?id=pearcleaner) - Source-available mac app cleaner inspired by Freemacsoft's AppCleaner (see also: AppCleaner)
-      ```
-      brew install pearcleaner
-      ```
+- [ ] [Pearcleaner](https://itsalin.com/appInfo/?id=pearcleaner) - Source-available mac app cleaner inspired by AppCleaner (see also: AppCleaner)
+```
+brew install pearcleaner
+```
 
 - [ ] [pcre](https://www.pcre.org/) - Perl compatible regular expressions library
   ```
